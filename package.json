@@ -1,0 +1,11 @@
+{
+  "name": "simple-web",
+  "private": true,
+  "scripts": {
+    "lint": "npx eslint web/*.js",
+    "build": "rm -rf dist && mkdir dist && cp -r web/* dist/"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
