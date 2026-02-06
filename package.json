@@ -1,6 +1,7 @@
 {
   "name": "simple-web",
   "private": true,
+  "type": "module",
   "scripts": {
     "lint": "npx eslint web/*.js",
     "build": "rm -rf dist && mkdir dist && cp -r web/* dist/"
